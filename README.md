@@ -4,8 +4,8 @@ Compare instance reservations and running instances for AWS services with the ne
 
 ## Requirements
 
-- Python 2.6+
-- argparse (required when using Python 2.6)
+- Python 2.7+
+- aws cli
 - boto3
 
 ## How to work with it
