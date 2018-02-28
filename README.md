@@ -1,5 +1,5 @@
 # aws-check-reserved-instances 2018
-Compare instance reservations and running instances for AWS services with the new format
+Compare instance reservations VS running instances for AWS services with the new format
 
 # Requirements
 
