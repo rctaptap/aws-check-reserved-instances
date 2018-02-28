@@ -11,8 +11,6 @@ Compare instance reservations and running instances for AWS services with the ne
     $ aws-check-reserved-instances.py
  
 ## Report
-::
-
     ===========REPORTE===========
     OK	(0)	    r3.large	Linux/UNIX  
     OK	(0)	     t2.nano	Linux/UNIX (Amazon VPC)
