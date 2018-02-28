@@ -12,7 +12,7 @@ Compare instance reservations and running instances for AWS services with the ne
     $ aws-check-reserved-instances.py
  
 # Report
-- OK : All reserved servers applies for all instances in this family and network
+- OK : If is "0" all reserved servers applies for all instances in this family and network. If is more than "0" all reserved servers applies for all instances in this family and network and there some servers that you can reserved
 - ALERT: There are reserved servers that do not apply for all instances in this family and network
 - DESIRE: You have instances that you can reserved
 
