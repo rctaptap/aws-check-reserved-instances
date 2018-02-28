@@ -12,22 +12,29 @@ Compare instance reservations and running instances for AWS services with the ne
     $ aws-check-reserved-instances.py
  
 # Report
-    ===========REPORT===========
-    OK	(0)	    r3.large	Linux/UNIX  
-    OK	(0)	     t2.nano	Linux/UNIX (Amazon VPC)
-    OK	(0)	    c3.large	Linux/UNIX  
-    ALERT	(-12)	     t2.nano	Windows (Amazon VPC)
-    DESIRE	(22)	    r3.large	Linux/UNIX (Amazon VPC)
-    OK	(0)	    r3.large	Windows (Amazon VPC)
-    ALERT	(-4)	    c4.large	Linux/UNIX (Amazon VPC)
-    DESIRE	(40)	   m3.medium	Linux/UNIX (Amazon VPC)
-    OK	(0)	   m2.xlarge	Windows     
-    DESIRE	(8)	    m1.small	Linux/UNIX  
-    OK	(0)	   m3.medium	Windows     
-    DESIRE	(2)	    m4.large	Linux/UNIX (Amazon VPC)
-    DESIRE	(4)	   m2.xlarge	Linux/UNIX  
-    DESIRE	(18)	   m2.xlarge	Linux/UNIX (Amazon VPC)
-    OK	(0)	    c3.large	Linux/UNIX (Amazon VPC)
+        ===========REPORT===========
+	          OK	(0)	    r3.large	Linux/UNIX  
+	          OK	(8)	     t2.nano	Linux/UNIX (Amazon VPC)
+	          OK	(0)	    c3.large	Linux/UNIX  
+	       ALERT	(-12)	     t2.nano	Windows (Amazon VPC)
+	          OK	(16)	    r3.large	Linux/UNIX (Amazon VPC)
+	          OK	(0)	    r3.large	Windows (Amazon VPC)
+	       ALERT	(-4)	    c4.large	Linux/UNIX (Amazon VPC)
+	          OK	(39)	   m3.medium	Linux/UNIX (Amazon VPC)
+	          OK	(0)	   m2.xlarge	Windows     
+	          OK	(8)	    m1.small	Linux/UNIX  
+	          OK	(0)	   m3.medium	Windows     
+	          OK	(2)	    m4.large	Linux/UNIX (Amazon VPC)
+	          OK	(4)	   m2.xlarge	Linux/UNIX  
+	          OK	(9)	   m2.xlarge	Linux/UNIX (Amazon VPC)
+	       ALERT	(-2)	    c3.large	Linux/UNIX (Amazon VPC)
+	          OK	(2)	    r4.large	Linux/UNIX (Amazon VPC)
+	      DESIRE	(1)	   c1.medium	Linux/UNIX (Amazon VPC)
+	      DESIRE	(8)	    r3.large	Windows     
+	      DESIRE	(4)	    m1.small	Windows     
+	      DESIRE	(8)	   m3.medium	Linux/UNIX  
+	      DESIRE	(1)	   c1.medium	Linux/UNIX  
+	      DESIRE	(3)	    m4.large	Windows (Amazon VPC)
 
 # Concepts
 ## To understand what is a instance
