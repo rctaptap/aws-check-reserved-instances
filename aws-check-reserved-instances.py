@@ -276,7 +276,7 @@ def get_table(instances,title):
             instance_type = i['instance_type']
             platform = i['platform']
             total = i['total']            
-            if title == 'REPORTE':
+            if title == 'REPORT':
                 message = i['message']
                 print('\t%12s\t(%-i)\t%12s\t%-12s' % (message,total,instance_type,platform))
             else:
@@ -289,9 +289,9 @@ ins = get_running_instances(ec2)
 comp = get_scope_reserved(ins,ris)
 
 
-get_table(ris,"RESERVADOS")
-get_table(ins,"INSTANCIAS")
-get_table(comp,"REPORTE")
+get_table(ris,"RESERVED")
+get_table(ins,"INSTANCES")
+get_table(comp,"REPORT")
 
 
 
