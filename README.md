@@ -49,6 +49,7 @@ Instances have a cost per hour, but if you are sure you are going to use that in
 You can advance the total (Total Upfront), only a part and pay less monthly (Partial Upfront) or pay nothing and pay less monthly (No Upfront). if you don't understand how nothing is paid, review the considerations in the final part
 
 **For example:**
+
     - m5.large = 0.01$ por hour | 8.3$ moth | Total: $100 year
 
 **If you reserve**
