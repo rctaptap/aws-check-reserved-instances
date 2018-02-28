@@ -29,13 +29,13 @@ Compare instance reservations and running instances for AWS services with the ne
     OK	(0)	    c3.large	Linux/UNIX (Amazon VPC)
 
 ## Concepts
-#To understand what is a instance
+# To understand what is a instance
 
 - **Instancia**: Amazon llama así a los servidores, que pueden tener distintos tamaños, en base al CPU y RAM, y dependiendo el desempeño lo define en una familia (Ejemplo: m5.large), las familias de servidores se caracterizan por que están optimizadas para un fin específico.
     Por ejemplo la letra:
-- - **m** = optimizado para cpu y memoria 
-- - **c** = optimizado para cpu
-- - **r** = optimizado para memoria
+    - **m** = optimizado para cpu y memoria 
+    - **c** = optimizado para cpu
+    - **r** = optimizado para memoria
 - **Números**: Versión de cada familia, mientras mayor el número, quiere decir que es una familia más actualizada.
 - **Tamaños:** nano, micro, medium, large, xlarge, 2xlarge. 
 - **Region**: Lugar donde se encuentra un conjunto de datacenters.
@@ -43,7 +43,7 @@ Compare instance reservations and running instances for AWS services with the ne
 - **Plataforma**: Existe el sistema operativo Windows o Linux
 - **Red**: Existe red clásica o VPC, dependiendo donde desplegaste tu instancia
 
-#To understand what is a reserved instance
+# To understand what is a reserved instance
 Las instancias tienen un costo por hora, pero si estás seguro que vas a utilizar esa instancia durante por lo menos un año, puedes hacer un pago adelantado y AWS te dará un descuento.
 
 Puedes adelantar el total (Total Upfront), o una parte y pagas menos mensualmente (Partial Upfront)
@@ -56,7 +56,7 @@ Puedes adelantar el total (Total Upfront), o una parte y pagas menos mensualment
 - m5.large = (Partial Upfront)  $40 adelanto y 3$ mes | Total: $76
 - m5.large = (No Upfront)       $0 adelanto y 7$ mes  | Total: $84
 
-Consideraciones:
+## Consideraciones:
 Amazon te cobra el servidor este o no esté prendido.
 Si no ha especificado ninguna zona de disponibilidad, el descuento se aplicará a una instancia en ejecución de cualquier tamaño (dentro de la misma familia) en la región. Por ejemplo:
 
