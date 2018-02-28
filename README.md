@@ -8,8 +8,6 @@ Compare instance reservations and running instances for AWS services with the ne
 - boto3
 
 ## Execute
-::
-
     $ aws-check-reserved-instances.py
  
 ## Report
