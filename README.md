@@ -33,9 +33,9 @@ Compare instance reservations and running instances for AWS services with the ne
 
 - **Instance**: Amazon servers, which can have different sizes, based on the CPU and RAM, and depending on the performance it defines in a family (Example: m5.large), the server families are characterized because they are optimized for a specific purpose.
      For example, the letter:
-     - **m** = optimized for cpu and memory
-     - **c** = optimized for cpu
-     - **r** = optimized for memory
+    - **m** = optimized for cpu and memory
+    - **c** = optimized for cpu
+    - **r** = optimized for memory
 - **Numbers**: Version of each family, the higher number means that it is a more updated family.
 - **Sizes:** nano, micro, medium, large, xlarge, 2xlarge.
 - **Region**: Place where a set of datacenters is located.
@@ -49,12 +49,12 @@ Instances have a cost per hour, but if you are sure you are going to use that in
 You can advance the total (Total Upfront), only a part and pay less monthly (Partial Upfront) or pay nothing and pay less monthly (No Upfront). if you don't understand how nothing is paid, review the considerations in the final part
 
 **For example:**
-- m5.large = 0.01$ por hour | 8.3$ moth | Total: $100 year
+    - m5.large = 0.01$ por hour | 8.3$ moth | Total: $100 year
 
 **If you reserve**
-- m5.large = (Total Upfront)    pay $50 advance and 0$ moth | Total: $50
-- m5.large = (Partial Upfront)  pay $40 advance and 3$ moth | Total: $76
-- m5.large = (No Upfront)       pay $0 advance and 7$ moth  | Total: $84
+    - m5.large = (Total Upfront)    pay $50 advance and 0$ moth | Total: $50
+    - m5.large = (Partial Upfront)  pay $40 advance and 3$ moth | Total: $76
+    - m5.large = (No Upfront)       pay $0 advance and 7$ moth  | Total: $84
 
 # Considerations:
 - Amazon charges you the server this turned on or not.
