@@ -35,7 +35,7 @@ Compare instance reservations and running instances for AWS services with the ne
      For example, the letter:
     - **m** = optimized for cpu and memory
     - **c** = optimized for cpu
-    - **r** = optimized for memory
+    - **r** = optimized for memory
 - **Numbers**: Version of each family, the higher number means that it is a more updated family.
 - **Sizes:** nano, micro, medium, large, xlarge, 2xlarge.
 - **Region**: Place where a set of datacenters is located.
