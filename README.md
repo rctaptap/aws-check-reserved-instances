@@ -52,6 +52,7 @@ You can advance the total (Total Upfront), only a part and pay less monthly (Par
     - m5.large = 0.01$ por hour | 8.3$ moth | Total: $100 year
 
 **If you reserve**
+    
     - m5.large = (Total Upfront)    pay $50 advance and 0$ moth | Total: $50
     - m5.large = (Partial Upfront)  pay $40 advance and 3$ moth | Total: $76
     - m5.large = (No Upfront)       pay $0 advance and 7$ moth  | Total: $84
