@@ -31,38 +31,39 @@ Compare instance reservations and running instances for AWS services with the ne
 # Concepts
 ## To understand what is a instance
 
-- **Instancia**: Amazon llama así a los servidores, que pueden tener distintos tamaños, en base al CPU y RAM, y dependiendo el desempeño lo define en una familia (Ejemplo: m5.large), las familias de servidores se caracterizan por que están optimizadas para un fin específico.
-    Por ejemplo la letra:
-    - **m** = optimizado para cpu y memoria 
-    - **c** = optimizado para cpu
-    - **r** = optimizado para memoria
-- **Números**: Versión de cada familia, mientras mayor el número, quiere decir que es una familia más actualizada.
-- **Tamaños:** nano, micro, medium, large, xlarge, 2xlarge. 
-- **Region**: Lugar donde se encuentra un conjunto de datacenters.
-- **Zona de disponibilidad**: Un datacenter dentro de una región
-- **Plataforma**: Existe el sistema operativo Windows o Linux
-- **Red**: Existe red clásica o VPC, dependiendo donde desplegaste tu instancia
+- **Instance**: Amazon servers, which can have different sizes, based on the CPU and RAM, and depending on the performance it defines in a family (Example: m5.large), the server families are characterized because they are optimized for a specific purpose.
+     For example, the letter:
+     - **m** = optimized for cpu and memory
+     - **c** = optimized for cpu
+     - **r** = optimized for memory
+- **Numbers**: Version of each family, the higher number means that it is a more updated family.
+- **Sizes:** nano, micro, medium, large, xlarge, 2xlarge.
+- **Region**: Place where a set of datacenters is located.
+- **Availability zone**: A datacenter within a region
+- **Platform**: There is a Windows or Linux operating system
+- **Network**: There is a classic network or VPC, depending on where you deployed your instance
 
 ## To understand what is a reserved instance
-Las instancias tienen un costo por hora, pero si estás seguro que vas a utilizar esa instancia durante por lo menos un año, puedes hacer un pago adelantado y AWS te dará un descuento.
+Instances have a cost per hour, but if you are sure you are going to use that instance for at least a year, you can make an advance payment and AWS will give you a discount.
 
-Puedes adelantar el total (Total Upfront), o una parte y pagas menos mensualmente (Partial Upfront)
+You can advance the total (Total Upfront), only a part and pay less monthly (Partial Upfront) or pay nothing and pay less monthly (No Upfront). if you don't understand how nothing is paid, review the considerations in the final part
 
-**Por ejemplo:**
-- m5.large = 0.01$ por hora | 8.3$ mes | Total: $100 año
+**For example:**
+- m5.large = 0.01$ por hour | 8.3$ moth | Total: $100 year
 
-**Si reservas**
-- m5.large = (Total Upfront)    $50 adelanto y 0$ mes | Total: $50
-- m5.large = (Partial Upfront)  $40 adelanto y 3$ mes | Total: $76
-- m5.large = (No Upfront)       $0 adelanto y 7$ mes  | Total: $84
+**If you reserve**
+- m5.large = (Total Upfront)    pay $50 advance and 0$ moth | Total: $50
+- m5.large = (Partial Upfront)  pay $40 advance and 3$ moth | Total: $76
+- m5.large = (No Upfront)       pay $0 advance and 7$ moth  | Total: $84
 
-# Consideraciones:
-- Amazon te cobra el servidor este o no esté prendido.
-- Si no ha especificado ninguna zona de disponibilidad, el descuento se aplicará a una instancia en ejecución de cualquier tamaño (dentro de la misma familia) en la región. Por ejemplo:
-    - Reservas m4.2xlarge Linux/UNIX (Total Upfront). Las instancias que aplican:
-      2 instancias m4.xlarge o 4 instancias m4.large
+# Considerations:
+- Amazon charges you the server this turned on or not.
+- If you have not specified any availability zones, the discount will be applied to a running instance of any size (within the same family) in the region. For example:
+     - Reservations m4.2xlarge Linux (Total Upfront). Instances that apply:
+       2 instances m4.xlarge or 4 instances m4.large
    
-
+## :heart: Special Thanks :heart:
+Thank you! [Andres Muñoz](https://github.com/andru255). My awe and appreciation for the friendliness of teach me python to achieve my goal.
 
 
 
