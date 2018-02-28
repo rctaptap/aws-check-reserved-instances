@@ -60,7 +60,7 @@ Puedes adelantar el total (Total Upfront), o una parte y pagas menos mensualment
 - Amazon te cobra el servidor este o no esté prendido.
 - Si no ha especificado ninguna zona de disponibilidad, el descuento se aplicará a una instancia en ejecución de cualquier tamaño (dentro de la misma familia) en la región. Por ejemplo:
     - Reservas m4.2xlarge Linux/UNIX (Total Upfront). Las instancias que aplican:
-        - 2 instancias m4.xlarge o 4 instancias m4.large
+      2 instancias m4.xlarge o 4 instancias m4.large
    
 
 
