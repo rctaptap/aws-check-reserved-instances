@@ -3,9 +3,10 @@ Compare instance reservations and running instances for AWS services with the ne
 
 # Requirements
 
-- Python 2.7+
-- aws cli
-- boto3
+- [Python 2.7+](https://www.python.org/downloads/)
+- [aws cli Windows](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html) [aws cli Linux](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux.html)
+- [boto3](https://boto3.readthedocs.io/en/latest/guide/quickstart.html#installation)
+- [git](https://git-scm.com/downloads) (Optional)
 
 # Execute
     $ aws-check-reserved-instances.py
