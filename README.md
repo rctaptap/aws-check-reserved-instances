@@ -59,7 +59,7 @@ You can advance the total (Total Upfront), only a part and pay less monthly (Par
 # Considerations:
 - Amazon charges you the server this turned on or not.
 - If you have not specified any availability zones, the discount will be applied to a running instance of any size (within the same family) in the region. For example:
-     - Reservations m4.2xlarge Linux (Total Upfront). Instances that apply:
+    - Reservations m4.2xlarge Linux (Total Upfront). Instances that apply:
        2 instances m4.xlarge or 4 instances m4.large
    
 ## :heart: Special Thanks :heart:
