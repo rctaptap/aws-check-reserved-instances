@@ -231,7 +231,7 @@ def get_instance_family_base(type):
         "m5.24xlarge": "m5.large",
         "c1.medium": "c1.medium",
         "c1.xlarge": "c1.medium",
-        "t1.micro": "c1.medium",
+        "t1.micro": "t1.micro",
         "t2.nano": "t2.nano",
         "t2.micro": "t2.nano",
         "t2.small": "t2.nano",
